@@ -3,5 +3,5 @@ From tomcat:latest
 
 # Maintainer 
 MAINTAINER "prithvisuri" 
-COPY **/*.war /usr/local/tomcat/webapps/
+COPY **/*.war /tomcat/webapps/
 CMD ["catalina.sh", "run"]
